@@ -1,5 +1,6 @@
 #include <iostream>
 int main()
 {
-    std::cout << "git_hello" << std::endl;
+    for(int i = 0; i < 10; ++i)
+        std::cout << "git_hello" << "_" << i << std::endl;
 }
